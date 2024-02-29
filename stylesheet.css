@@ -1,0 +1,164 @@
+@import url('Inconsolata-VF.ttf');
+@import url('Consolas.ttf');
+
+*{
+    font-family: 'Inconsolata';
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #1E282F;
+}
+
+.logo{
+    width: 216px;
+    cursor: pointer;
+}
+
+nav{
+    background-color: #172026;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 24px 10%;
+}
+
+li, a, button{
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+
+    list-style: none;
+    text-decoration: none;
+}
+
+.navLinks li{
+    display: inline;
+    padding: 0px 20px;
+}
+
+button{
+    border: none;
+    border-radius: 50px;
+    background-color: #1E282F;
+    cursor: pointer;
+    padding: 12px 25px;
+
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    color: #2DA799 ;
+}
+
+#contactNavButton{
+    background-color: #2DA799;
+}
+#contactNavButton:hover{
+    background-color: #6ad8cb;
+}
+
+#titleContainer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 128px;
+}
+
+#subtitleContainer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 64px;
+}
+
+#capabilitiesSection{
+    background-color: #172026;
+    margin: 0px 128px;
+    padding: 16px 64px;
+
+    border-radius: 8px;
+}
+
+.codespace p, h2, h3{
+    font-family: 'Consolas';
+    font-weight: 300;
+}
+
+.codespace p{
+    padding: 4px;
+
+    color: #c39178;
+    color: white;
+}
+#codeTitle1{
+    padding: 4px;
+    color: #6ad8cb;
+}
+#codeTitle2{
+    padding: 4px;
+    padding-top: 16px;
+    color: #6ad8cb;
+}
+.codespace h3{
+    padding: 4px;
+    color: white;
+}
+
+#projectsSectionContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.projImage{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.project{
+    color: white;
+
+    text-align: center;
+    padding: 64px 96px;
+}
+
+#offerSection h1{
+    font-size: 64px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 4px;
+
+    font-optical-sizing: none;
+    white-space: nowrap;
+
+    border-right: .2em solid white;
+    width: 50%;
+    animation: blink-caret .75s step-end infinite;
+}
+
+@keyframes blink-caret{
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+}
+
+#projSectionTitle{
+    font-size: 32px;
+    text-align: center;
+
+
+    color: white;
+    margin: 32px 128px;
+}
+
+h2{
+    padding: 16px;
+}
+
+p{
+    padding: 16px;
+    text-align: justify;
+}
